@@ -1,0 +1,911 @@
+[
+{"type":"header","version":"4.8.4","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"eoffice"},
+{"type":"table","name":"account","database":"eoffice","data":
+[
+{"id":"1","account":"Asset"},
+{"id":"2","account":"Liability"},
+{"id":"3","account":"Equity"},
+{"id":"4","account":"Revenue"},
+{"id":"5","account":"Expense"}
+]
+}
+,{"type":"table","name":"account_head","database":"eoffice","data":
+[
+{"id":"1","account_title":"Pety Cash","account_number":"","description":"Cash and cash equivalents","phone":"","address":"","account_type_id":"1","balance":"-250.00","sys":"0"},
+{"id":"2","account_title":"Accounts Receivable (A\/R)","account_number":"","description":"Accounts Receivable (A\/R)","phone":"","address":"","account_type_id":"2","balance":"0.00","sys":"0"},
+{"id":"4","account_title":"Accounts Payable (A\/P)","account_number":"","description":"Accounts Payable (A\/P)","phone":"","address":"","account_type_id":"5","balance":"0.00","sys":"0"}
+]
+}
+,{"type":"table","name":"account_type","database":"eoffice","data":
+[
+{"id":"1","account_type":"Cash and cash equivalents","account_id":"1"},
+{"id":"2","account_type":"Accounts receivable (A\/R)","account_id":"1"},
+{"id":"3","account_type":"Current assets","account_id":"1"},
+{"id":"4","account_type":"Fixed assets","account_id":"1"},
+{"id":"5","account_type":"Accounts payable (A\/P)","account_id":"2"},
+{"id":"6","account_type":"Current liabilities","account_id":"2"},
+{"id":"7","account_type":"Owner's equity","account_id":"3"},
+{"id":"8","account_type":"Income","account_id":"4"},
+{"id":"9","account_type":"Cost of sales","account_id":"5"},
+{"id":"10","account_type":"Expenses","account_id":"5"}
+]
+}
+,{"type":"table","name":"admin_groups","database":"eoffice","data":
+[
+{"id":"1","name":"admin","description":"Administrator"},
+{"id":"2","name":"hr","description":"HR Manager"},
+{"id":"3","name":"accounts","description":"Accounts Manager"},
+{"id":"4","name":"staff","description":"HR Staff"},
+{"id":"5","name":"sales","description":"Sales Staff"}
+]
+}
+,{"type":"table","name":"admin_login_attempts","database":"eoffice","data":
+[
+
+]
+}
+,{"type":"table","name":"admin_users","database":"eoffice","data":
+[
+{"id":"2","ip_address":"127.0.0.1","username":"admin","password":"$2y$08$cM1mOrdVoCs9Euvq7pkEUO27eItEiyVUiMDP2im9RlGrdKRWxnADK","salt":null,"email":"admin@admin.com","activation_code":null,"forgotten_password_code":null,"forgotten_password_time":null,"remember_code":"LZPAsjX0iOrkpOh.itgKee","created_on":"1451900228","last_login":"1598181353","active":"1","first_name":"Shawn","last_name":"Wendt","type":"admin"},
+{"id":"4","ip_address":"::1","username":"daryabsb","password":"$2y$08$fzHj1Upq69QGnC67OBHlo.LbDs.H5oYVs2xi6yUxK3kwF5rqSVdl.","salt":null,"email":"darya.ibrahim@imperialknight.com","activation_code":null,"forgotten_password_code":null,"forgotten_password_time":null,"remember_code":null,"created_on":"1594463855","last_login":null,"active":"1","first_name":"Darya","last_name":"Ibrahim","type":"admin"}
+]
+}
+,{"type":"table","name":"admin_users_groups","database":"eoffice","data":
+[
+{"id":"2","user_id":"2","group_id":"1"},
+{"id":"3","user_id":"3","group_id":"4"},
+{"id":"4","user_id":"4","group_id":"5"}
+]
+}
+,{"type":"table","name":"assets","database":"eoffice","data":
+[
+{"id":"2","name":"Truck 1","purchase_year":"2019-07-09","cost":"52000.00","lifespan":"5","salvage_value":"2000.00"}
+]
+}
+,{"type":"table","name":"ci_sessions","database":"eoffice","data":
+[
+{"id":"a2eb237979afc308a1f84b41ceedfba88778d254","ip_address":"::1","timestamp":"1591855554","data":"__ci_last_regenerate|i:1591855260;identity|s:5:\"admin\";username|s:5:\"admin\";email|s:15:\"admin@admin.com\";user_id|s:1:\"2\";old_last_login|s:10:\"1505894033\";"},
+{"id":"af0fe0e7f849f17d7385dbbba9788f6b1f719a04","ip_address":"::1","timestamp":"1591855831","data":"__ci_last_regenerate|i:1591855750;identity|s:5:\"admin\";username|s:5:\"admin\";email|s:15:\"admin@admin.com\";user_id|s:1:\"2\";old_last_login|s:10:\"1591855270\";"},
+{"id":"6fc37818ce35a525c312391bde7a6ca7abe157f7","ip_address":"::1","timestamp":"1591856243","data":"__ci_last_regenerate|i:1591856125;identity|s:5:\"admin\";username|s:5:\"admin\";email|s:15:\"admin@admin.com\";user_id|s:1:\"2\";old_last_login|s:10:\"1591855270\";success|s:41:\"Your record has been delete successfully!\";__ci_vars|a:1:{s:7:\"success\";s:3:\"old\";}"},
+{"id":"89eacc0f452bf88a3633a0ef3de8d47a0e9bbca9","ip_address":"::1","timestamp":"1591856796","data":"__ci_last_regenerate|i:1591856464;identity|s:5:\"admin\";username|s:5:\"admin\";email|s:15:\"admin@admin.com\";user_id|s:1:\"2\";old_last_login|s:10:\"1591855270\";"},
+{"id":"b1ee3f74ffb1276784ca639fc83a19f48d7566af","ip_address":"::1","timestamp":"1591857079","data":"__ci_last_regenerate|i:1591856799;identity|s:5:\"admin\";username|s:5:\"admin\";email|s:15:\"admin@admin.com\";user_id|s:1:\"2\";old_last_login|s:10:\"1591855270\";type|s:7:\"invoice\";discount|i:0;"},
+{"id":"ee2c8e604a86c199364e6df94a00ffcf2c02f4bf","ip_address":"::1","timestamp":"1591857351","data":"__ci_last_regenerate|i:1591857145;identity|s:5:\"admin\";username|s:5:\"admin\";email|s:15:\"admin@admin.com\";user_id|s:1:\"2\";old_last_login|s:10:\"1591855270\";type|s:7:\"invoice\";discount|i:0;"},
+{"id":"28c1202b11307a2d153a26349b84f4450ad27c61","ip_address":"::1","timestamp":"1591857789","data":"__ci_last_regenerate|i:1591857657;identity|s:5:\"admin\";username|s:5:\"admin\";email|s:15:\"admin@admin.com\";user_id|s:1:\"2\";old_last_login|s:10:\"1591855270\";type|s:7:\"invoice\";discount|i:0;"},
+{"id":"1793d53836271ef801f0ebd49ec93625121bd7e9","ip_address":"::1","timestamp":"1591859394","data":"__ci_last_regenerate|i:1591859145;identity|s:5:\"admin\";username|s:5:\"admin\";email|s:15:\"admin@admin.com\";user_id|s:1:\"2\";old_last_login|s:10:\"1591855270\";type|s:7:\"invoice\";discount|i:0;language|s:7:\"english\";"},
+{"id":"1922e604c55656e43f0480946acbb5693cd12907","ip_address":"::1","timestamp":"1591867551","data":"__ci_last_regenerate|i:1591867551;"},
+{"id":"ed59c77a7417d34ab5f5fc33b7eec45d1f9fa694","ip_address":"::1","timestamp":"1593844069","data":"__ci_last_regenerate|i:1593843867;identity|s:5:\"admin\";username|s:5:\"admin\";email|s:15:\"admin@admin.com\";user_id|s:1:\"2\";old_last_login|s:10:\"1591867328\";"},
+{"id":"03c432eefb04b852a357f03c71ba603f718794cf","ip_address":"::1","timestamp":"1593845186","data":"__ci_last_regenerate|i:1593845179;identity|s:5:\"admin\";username|s:5:\"admin\";email|s:15:\"admin@admin.com\";user_id|s:1:\"2\";old_last_login|s:10:\"1591867328\";"},
+{"id":"3fd849b8b53f1f12d70f86988702a31fe3fe2e3a","ip_address":"::1","timestamp":"1594280771","data":"__ci_last_regenerate|i:1594280489;identity|s:5:\"admin\";username|s:5:\"admin\";email|s:15:\"admin@admin.com\";user_id|s:1:\"2\";old_last_login|s:10:\"1593844008\";type|s:9:\"quotation\";discount|i:0;"},
+{"id":"cbac29b626576af72028a7d06c03595fed7d6b59","ip_address":"::1","timestamp":"1594281192","data":"__ci_last_regenerate|i:1594280904;identity|s:5:\"admin\";username|s:5:\"admin\";email|s:15:\"admin@admin.com\";user_id|s:1:\"2\";old_last_login|s:10:\"1593844008\";type|s:9:\"quotation\";discount|i:0;"},
+{"id":"b9de0953a52908bcdefc378e4b5f6a87e2b35439","ip_address":"::1","timestamp":"1594281506","data":"__ci_last_regenerate|i:1594281207;identity|s:5:\"admin\";username|s:5:\"admin\";email|s:15:\"admin@admin.com\";user_id|s:1:\"2\";old_last_login|s:10:\"1593844008\";type|s:9:\"quotation\";discount|i:0;"},
+{"id":"3cec3872f0a024230cda46cfe195a2ac5bf9cef6","ip_address":"::1","timestamp":"1594281626","data":"__ci_last_regenerate|i:1594281509;identity|s:5:\"admin\";username|s:5:\"admin\";email|s:15:\"admin@admin.com\";user_id|s:1:\"2\";old_last_login|s:10:\"1593844008\";type|s:9:\"quotation\";discount|i:0;"},
+{"id":"c1618e63e37bc8eb87cc7f4c85a156b99df930a3","ip_address":"::1","timestamp":"1594281836","data":"__ci_last_regenerate|i:1594281836;identity|s:5:\"admin\";username|s:5:\"admin\";email|s:15:\"admin@admin.com\";user_id|s:1:\"2\";old_last_login|s:10:\"1593844008\";type|s:9:\"quotation\";discount|i:0;"},
+{"id":"444f12559946268f98b9ba007a6737e00c390dda","ip_address":"::1","timestamp":"1594282436","data":"__ci_last_regenerate|i:1594282436;identity|s:5:\"admin\";username|s:5:\"admin\";email|s:15:\"admin@admin.com\";user_id|s:1:\"2\";old_last_login|s:10:\"1593844008\";type|s:9:\"quotation\";discount|i:0;"},
+{"id":"96facf1626e2508761c1b3de3dc7bcef403d38ed","ip_address":"::1","timestamp":"1594289219","data":"__ci_last_regenerate|i:1594289214;identity|s:5:\"admin\";username|s:5:\"admin\";email|s:15:\"admin@admin.com\";user_id|s:1:\"2\";old_last_login|s:10:\"1593844008\";type|s:9:\"quotation\";discount|i:0;"},
+{"id":"bfc661027c5694ebaa8f2b353bad6ef3ddc661dd","ip_address":"::1","timestamp":"1594460339","data":"__ci_last_regenerate|i:1594460301;identity|s:5:\"admin\";username|s:5:\"admin\";email|s:15:\"admin@admin.com\";user_id|s:1:\"2\";old_last_login|s:10:\"1594280506\";"},
+{"id":"79b5d85c108fe33283b37ea166bc62e7f5b9e65b","ip_address":"::1","timestamp":"1594463888","data":"__ci_last_regenerate|i:1594463859;system_messages|a:2:{s:7:\"success\";a:0:{}s:5:\"error\";a:1:{i:0;s:22:\"<p>Incorrect Login<\/p>\";}}__ci_vars|a:1:{s:15:\"system_messages\";s:3:\"old\";}"},
+{"id":"7d6a3e0d3c955bdedcb6f4de5a9b37c1e40f0ff0","ip_address":"::1","timestamp":"1594464486","data":"__ci_last_regenerate|i:1594464250;identity|s:5:\"admin\";username|s:5:\"admin\";email|s:15:\"admin@admin.com\";user_id|s:1:\"2\";old_last_login|s:10:\"1594463819\";"},
+{"id":"1c83b9c590544fb068adc0e2cdd84efbd47498b6","ip_address":"::1","timestamp":"1594465081","data":"__ci_last_regenerate|i:1594465081;identity|s:5:\"admin\";username|s:5:\"admin\";email|s:15:\"admin@admin.com\";user_id|s:1:\"2\";old_last_login|s:10:\"1594463819\";"},
+{"id":"e7bc64f9e2191c58a7a32e138771f1d0ad47254f","ip_address":"::1","timestamp":"1594889649","data":"__ci_last_regenerate|i:1594889645;identity|s:5:\"admin\";username|s:5:\"admin\";email|s:15:\"admin@admin.com\";user_id|s:1:\"2\";old_last_login|s:10:\"1594464417\";"},
+{"id":"9219baad8384ff2a6fd23d95cd4c77657d166b37","ip_address":"::1","timestamp":"1595141778","data":"__ci_last_regenerate|i:1595141748;identity|s:5:\"admin\";username|s:5:\"admin\";email|s:15:\"admin@admin.com\";user_id|s:1:\"2\";old_last_login|s:10:\"1594889648\";"},
+{"id":"3179193ab325529dbe58308f68976599ec959f9c","ip_address":"127.0.0.1","timestamp":"1596545271","data":"__ci_last_regenerate|i:1596544977;identity|s:5:\"admin\";username|s:5:\"admin\";email|s:15:\"admin@admin.com\";user_id|s:1:\"2\";old_last_login|s:10:\"1595141750\";"},
+{"id":"35e98c6f3f6072cab52883fd8f06205a04442039","ip_address":"::1","timestamp":"1596545323","data":"__ci_last_regenerate|i:1596545322;identity|s:5:\"admin\";username|s:5:\"admin\";email|s:15:\"admin@admin.com\";user_id|s:1:\"2\";old_last_login|s:10:\"1595141750\";"},
+{"id":"da173d1dd9ed4d25755788d9e6d53d491184bc5b","ip_address":"::1","timestamp":"1598181354","data":"__ci_last_regenerate|i:1598181336;identity|s:5:\"admin\";username|s:5:\"admin\";email|s:15:\"admin@admin.com\";user_id|s:1:\"2\";old_last_login|s:10:\"1596544979\";"}
+]
+}
+,{"type":"table","name":"component","database":"eoffice","data":
+[
+
+]
+}
+,{"type":"table","name":"countries","database":"eoffice","data":
+[
+{"id":"1","country_code":"AD","country":"Andorra","currency_code":"EUR"},
+{"id":"2","country_code":"AE","country":"United Arab Emirates","currency_code":"AED"},
+{"id":"3","country_code":"AF","country":"Afghanistan","currency_code":"AFN"},
+{"id":"4","country_code":"AG","country":"Antigua and Barbuda","currency_code":"XCD"},
+{"id":"5","country_code":"AI","country":"Anguilla","currency_code":"XCD"},
+{"id":"6","country_code":"AL","country":"Albania","currency_code":"ALL"},
+{"id":"7","country_code":"AM","country":"Armenia","currency_code":"AMD"},
+{"id":"8","country_code":"AO","country":"Angola","currency_code":"AOA"},
+{"id":"9","country_code":"AQ","country":"Antarctica","currency_code":""},
+{"id":"10","country_code":"AR","country":"Argentina","currency_code":"ARS"},
+{"id":"11","country_code":"AS","country":"American Samoa","currency_code":"USD"},
+{"id":"12","country_code":"AT","country":"Austria","currency_code":"EUR"},
+{"id":"13","country_code":"AU","country":"Australia","currency_code":"AUD"},
+{"id":"14","country_code":"AW","country":"Aruba","currency_code":"AWG"},
+{"id":"15","country_code":"AX","country":"Åland","currency_code":"EUR"},
+{"id":"16","country_code":"AZ","country":"Azerbaijan","currency_code":"AZN"},
+{"id":"17","country_code":"BA","country":"Bosnia and Herzegovina","currency_code":"BAM"},
+{"id":"18","country_code":"BB","country":"Barbados","currency_code":"BBD"},
+{"id":"19","country_code":"BD","country":"Bangladesh","currency_code":"BDT"},
+{"id":"20","country_code":"BE","country":"Belgium","currency_code":"EUR"},
+{"id":"21","country_code":"BF","country":"Burkina Faso","currency_code":"XOF"},
+{"id":"22","country_code":"BG","country":"Bulgaria","currency_code":"BGN"},
+{"id":"23","country_code":"BH","country":"Bahrain","currency_code":"BHD"},
+{"id":"24","country_code":"BI","country":"Burundi","currency_code":"BIF"},
+{"id":"25","country_code":"BJ","country":"Benin","currency_code":"XOF"},
+{"id":"26","country_code":"BL","country":"Saint Barthélemy","currency_code":"EUR"},
+{"id":"27","country_code":"BM","country":"Bermuda","currency_code":"BMD"},
+{"id":"28","country_code":"BN","country":"Brunei","currency_code":"BND"},
+{"id":"29","country_code":"BO","country":"Bolivia","currency_code":"BOB"},
+{"id":"30","country_code":"BQ","country":"Bonaire","currency_code":"USD"},
+{"id":"31","country_code":"BR","country":"Brazil","currency_code":"BRL"},
+{"id":"32","country_code":"BS","country":"Bahamas","currency_code":"BSD"},
+{"id":"33","country_code":"BT","country":"Bhutan","currency_code":"BTN"},
+{"id":"34","country_code":"BV","country":"Bouvet Island","currency_code":"NOK"},
+{"id":"35","country_code":"BW","country":"Botswana","currency_code":"BWP"},
+{"id":"36","country_code":"BY","country":"Belarus","currency_code":"BYR"},
+{"id":"37","country_code":"BZ","country":"Belize","currency_code":"BZD"},
+{"id":"38","country_code":"CA","country":"Canada","currency_code":"CAD"},
+{"id":"39","country_code":"CC","country":"Cocos [Keeling] Islands","currency_code":"AUD"},
+{"id":"40","country_code":"CD","country":"Democratic Republic of the Congo","currency_code":"CDF"},
+{"id":"41","country_code":"CF","country":"Central African Republic","currency_code":"XAF"},
+{"id":"42","country_code":"CG","country":"Republic of the Congo","currency_code":"XAF"},
+{"id":"43","country_code":"CH","country":"Switzerland","currency_code":"CHF"},
+{"id":"44","country_code":"CI","country":"Ivory Coast","currency_code":"XOF"},
+{"id":"45","country_code":"CK","country":"Cook Islands","currency_code":"NZD"},
+{"id":"46","country_code":"CL","country":"Chile","currency_code":"CLP"},
+{"id":"47","country_code":"CM","country":"Cameroon","currency_code":"XAF"},
+{"id":"48","country_code":"CN","country":"China","currency_code":"CNY"},
+{"id":"49","country_code":"CO","country":"Colombia","currency_code":"COP"},
+{"id":"50","country_code":"CR","country":"Costa Rica","currency_code":"CRC"},
+{"id":"51","country_code":"CU","country":"Cuba","currency_code":"CUP"},
+{"id":"52","country_code":"CV","country":"Cape Verde","currency_code":"CVE"},
+{"id":"53","country_code":"CW","country":"Curacao","currency_code":"ANG"},
+{"id":"54","country_code":"CX","country":"Christmas Island","currency_code":"AUD"},
+{"id":"55","country_code":"CY","country":"Cyprus","currency_code":"EUR"},
+{"id":"56","country_code":"CZ","country":"Czech Republic","currency_code":"CZK"},
+{"id":"57","country_code":"DE","country":"Germany","currency_code":"EUR"},
+{"id":"58","country_code":"DJ","country":"Djibouti","currency_code":"DJF"},
+{"id":"59","country_code":"DK","country":"Denmark","currency_code":"DKK"},
+{"id":"60","country_code":"DM","country":"Dominica","currency_code":"XCD"},
+{"id":"61","country_code":"DO","country":"Dominican Republic","currency_code":"DOP"},
+{"id":"62","country_code":"DZ","country":"Algeria","currency_code":"DZD"},
+{"id":"63","country_code":"EC","country":"Ecuador","currency_code":"USD"},
+{"id":"64","country_code":"EE","country":"Estonia","currency_code":"EUR"},
+{"id":"65","country_code":"EG","country":"Egypt","currency_code":"EGP"},
+{"id":"66","country_code":"EH","country":"Western Sahara","currency_code":"MAD"},
+{"id":"67","country_code":"ER","country":"Eritrea","currency_code":"ERN"},
+{"id":"68","country_code":"ES","country":"Spain","currency_code":"EUR"},
+{"id":"69","country_code":"ET","country":"Ethiopia","currency_code":"ETB"},
+{"id":"70","country_code":"FI","country":"Finland","currency_code":"EUR"},
+{"id":"71","country_code":"FJ","country":"Fiji","currency_code":"FJD"},
+{"id":"72","country_code":"FK","country":"Falkland Islands","currency_code":"FKP"},
+{"id":"73","country_code":"FM","country":"Micronesia","currency_code":"USD"},
+{"id":"74","country_code":"FO","country":"Faroe Islands","currency_code":"DKK"},
+{"id":"75","country_code":"FR","country":"France","currency_code":"EUR"},
+{"id":"76","country_code":"GA","country":"Gabon","currency_code":"XAF"},
+{"id":"77","country_code":"GB","country":"United Kingdom","currency_code":"GBP"},
+{"id":"78","country_code":"GD","country":"Grenada","currency_code":"XCD"},
+{"id":"79","country_code":"GE","country":"Georgia","currency_code":"GEL"},
+{"id":"80","country_code":"GF","country":"French Guiana","currency_code":"EUR"},
+{"id":"81","country_code":"GG","country":"Guernsey","currency_code":"GBP"},
+{"id":"82","country_code":"GH","country":"Ghana","currency_code":"GHS"},
+{"id":"83","country_code":"GI","country":"Gibraltar","currency_code":"GIP"},
+{"id":"84","country_code":"GL","country":"Greenland","currency_code":"DKK"},
+{"id":"85","country_code":"GM","country":"Gambia","currency_code":"GMD"},
+{"id":"86","country_code":"GN","country":"Guinea","currency_code":"GNF"},
+{"id":"87","country_code":"GP","country":"Guadeloupe","currency_code":"EUR"},
+{"id":"88","country_code":"GQ","country":"Equatorial Guinea","currency_code":"XAF"},
+{"id":"89","country_code":"GR","country":"Greece","currency_code":"EUR"},
+{"id":"90","country_code":"GS","country":"South Georgia and the South Sandwich Islands","currency_code":"GBP"},
+{"id":"91","country_code":"GT","country":"Guatemala","currency_code":"GTQ"},
+{"id":"92","country_code":"GU","country":"Guam","currency_code":"USD"},
+{"id":"93","country_code":"GW","country":"Guinea-Bissau","currency_code":"XOF"},
+{"id":"94","country_code":"GY","country":"Guyana","currency_code":"GYD"},
+{"id":"95","country_code":"HK","country":"Hong Kong","currency_code":"HKD"},
+{"id":"96","country_code":"HM","country":"Heard Island and McDonald Islands","currency_code":"AUD"},
+{"id":"97","country_code":"HN","country":"Honduras","currency_code":"HNL"},
+{"id":"98","country_code":"HR","country":"Croatia","currency_code":"HRK"},
+{"id":"99","country_code":"HT","country":"Haiti","currency_code":"HTG"},
+{"id":"100","country_code":"HU","country":"Hungary","currency_code":"HUF"},
+{"id":"101","country_code":"ID","country":"Indonesia","currency_code":"IDR"},
+{"id":"102","country_code":"IE","country":"Ireland","currency_code":"EUR"},
+{"id":"103","country_code":"IL","country":"Israel","currency_code":"ILS"},
+{"id":"104","country_code":"IM","country":"Isle of Man","currency_code":"GBP"},
+{"id":"105","country_code":"IN","country":"India","currency_code":"INR"},
+{"id":"106","country_code":"IO","country":"British Indian Ocean Territory","currency_code":"USD"},
+{"id":"107","country_code":"IQ","country":"Iraq","currency_code":"IQD"},
+{"id":"108","country_code":"IR","country":"Iran","currency_code":"IRR"},
+{"id":"109","country_code":"IS","country":"Iceland","currency_code":"ISK"},
+{"id":"110","country_code":"IT","country":"Italy","currency_code":"EUR"},
+{"id":"111","country_code":"JE","country":"Jersey","currency_code":"GBP"},
+{"id":"112","country_code":"JM","country":"Jamaica","currency_code":"JMD"},
+{"id":"113","country_code":"JO","country":"Jordan","currency_code":"JOD"},
+{"id":"114","country_code":"JP","country":"Japan","currency_code":"JPY"},
+{"id":"115","country_code":"KE","country":"Kenya","currency_code":"KES"},
+{"id":"116","country_code":"KG","country":"Kyrgyzstan","currency_code":"KGS"},
+{"id":"117","country_code":"KH","country":"Cambodia","currency_code":"KHR"},
+{"id":"118","country_code":"KI","country":"Kiribati","currency_code":"AUD"},
+{"id":"119","country_code":"KM","country":"Comoros","currency_code":"KMF"},
+{"id":"120","country_code":"KN","country":"Saint Kitts and Nevis","currency_code":"XCD"},
+{"id":"121","country_code":"KP","country":"North Korea","currency_code":"KPW"},
+{"id":"122","country_code":"KR","country":"South Korea","currency_code":"KRW"},
+{"id":"123","country_code":"KW","country":"Kuwait","currency_code":"KWD"},
+{"id":"124","country_code":"KY","country":"Cayman Islands","currency_code":"KYD"},
+{"id":"125","country_code":"KZ","country":"Kazakhstan","currency_code":"KZT"},
+{"id":"126","country_code":"LA","country":"Laos","currency_code":"LAK"},
+{"id":"127","country_code":"LB","country":"Lebanon","currency_code":"LBP"},
+{"id":"128","country_code":"LC","country":"Saint Lucia","currency_code":"XCD"},
+{"id":"129","country_code":"LI","country":"Liechtenstein","currency_code":"CHF"},
+{"id":"130","country_code":"LK","country":"Sri Lanka","currency_code":"LKR"},
+{"id":"131","country_code":"LR","country":"Liberia","currency_code":"LRD"},
+{"id":"132","country_code":"LS","country":"Lesotho","currency_code":"LSL"},
+{"id":"133","country_code":"LT","country":"Lithuania","currency_code":"EUR"},
+{"id":"134","country_code":"LU","country":"Luxembourg","currency_code":"EUR"},
+{"id":"135","country_code":"LV","country":"Latvia","currency_code":"EUR"},
+{"id":"136","country_code":"LY","country":"Libya","currency_code":"LYD"},
+{"id":"137","country_code":"MA","country":"Morocco","currency_code":"MAD"},
+{"id":"138","country_code":"MC","country":"Monaco","currency_code":"EUR"},
+{"id":"139","country_code":"MD","country":"Moldova","currency_code":"MDL"},
+{"id":"140","country_code":"ME","country":"Montenegro","currency_code":"EUR"},
+{"id":"141","country_code":"MF","country":"Saint Martin","currency_code":"EUR"},
+{"id":"142","country_code":"MG","country":"Madagascar","currency_code":"MGA"},
+{"id":"143","country_code":"MH","country":"Marshall Islands","currency_code":"USD"},
+{"id":"144","country_code":"MK","country":"Macedonia","currency_code":"MKD"},
+{"id":"145","country_code":"ML","country":"Mali","currency_code":"XOF"},
+{"id":"146","country_code":"MM","country":"Myanmar [Burma]","currency_code":"MMK"},
+{"id":"147","country_code":"MN","country":"Mongolia","currency_code":"MNT"},
+{"id":"148","country_code":"MO","country":"Macao","currency_code":"MOP"},
+{"id":"149","country_code":"MP","country":"Northern Mariana Islands","currency_code":"USD"},
+{"id":"150","country_code":"MQ","country":"Martinique","currency_code":"EUR"},
+{"id":"151","country_code":"MR","country":"Mauritania","currency_code":"MRO"},
+{"id":"152","country_code":"MS","country":"Montserrat","currency_code":"XCD"},
+{"id":"153","country_code":"MT","country":"Malta","currency_code":"EUR"},
+{"id":"154","country_code":"MU","country":"Mauritius","currency_code":"MUR"},
+{"id":"155","country_code":"MV","country":"Maldives","currency_code":"MVR"},
+{"id":"156","country_code":"MW","country":"Malawi","currency_code":"MWK"},
+{"id":"157","country_code":"MX","country":"Mexico","currency_code":"MXN"},
+{"id":"158","country_code":"MY","country":"Malaysia","currency_code":"MYR"},
+{"id":"159","country_code":"MZ","country":"Mozambique","currency_code":"MZN"},
+{"id":"160","country_code":"NA","country":"Namibia","currency_code":"NAD"},
+{"id":"161","country_code":"NC","country":"New Caledonia","currency_code":"XPF"},
+{"id":"162","country_code":"NE","country":"Niger","currency_code":"XOF"},
+{"id":"163","country_code":"NF","country":"Norfolk Island","currency_code":"AUD"},
+{"id":"164","country_code":"NG","country":"Nigeria","currency_code":"NGN"},
+{"id":"165","country_code":"NI","country":"Nicaragua","currency_code":"NIO"},
+{"id":"166","country_code":"NL","country":"Netherlands","currency_code":"EUR"},
+{"id":"167","country_code":"NO","country":"Norway","currency_code":"NOK"},
+{"id":"168","country_code":"NP","country":"Nepal","currency_code":"NPR"},
+{"id":"169","country_code":"NR","country":"Nauru","currency_code":"AUD"},
+{"id":"170","country_code":"NU","country":"Niue","currency_code":"NZD"},
+{"id":"171","country_code":"NZ","country":"New Zealand","currency_code":"NZD"},
+{"id":"172","country_code":"OM","country":"Oman","currency_code":"OMR"},
+{"id":"173","country_code":"PA","country":"Panama","currency_code":"PAB"},
+{"id":"174","country_code":"PE","country":"Peru","currency_code":"PEN"},
+{"id":"175","country_code":"PF","country":"French Polynesia","currency_code":"XPF"},
+{"id":"176","country_code":"PG","country":"Papua New Guinea","currency_code":"PGK"},
+{"id":"177","country_code":"PH","country":"Philippines","currency_code":"PHP"},
+{"id":"178","country_code":"PK","country":"Pakistan","currency_code":"PKR"},
+{"id":"179","country_code":"PL","country":"Poland","currency_code":"PLN"},
+{"id":"180","country_code":"PM","country":"Saint Pierre and Miquelon","currency_code":"EUR"},
+{"id":"181","country_code":"PN","country":"Pitcairn Islands","currency_code":"NZD"},
+{"id":"182","country_code":"PR","country":"Puerto Rico","currency_code":"USD"},
+{"id":"183","country_code":"PS","country":"Palestine","currency_code":"ILS"},
+{"id":"184","country_code":"PT","country":"Portugal","currency_code":"EUR"},
+{"id":"185","country_code":"PW","country":"Palau","currency_code":"USD"},
+{"id":"186","country_code":"PY","country":"Paraguay","currency_code":"PYG"},
+{"id":"187","country_code":"QA","country":"Qatar","currency_code":"QAR"},
+{"id":"188","country_code":"RE","country":"Réunion","currency_code":"EUR"},
+{"id":"189","country_code":"RO","country":"Romania","currency_code":"RON"},
+{"id":"190","country_code":"RS","country":"Serbia","currency_code":"RSD"},
+{"id":"191","country_code":"RU","country":"Russia","currency_code":"RUB"},
+{"id":"192","country_code":"RW","country":"Rwanda","currency_code":"RWF"},
+{"id":"193","country_code":"SA","country":"Saudi Arabia","currency_code":"SAR"},
+{"id":"194","country_code":"SB","country":"Solomon Islands","currency_code":"SBD"},
+{"id":"195","country_code":"SC","country":"Seychelles","currency_code":"SCR"},
+{"id":"196","country_code":"SD","country":"Sudan","currency_code":"SDG"},
+{"id":"197","country_code":"SE","country":"Sweden","currency_code":"SEK"},
+{"id":"198","country_code":"SG","country":"Singapore","currency_code":"SGD"},
+{"id":"199","country_code":"SH","country":"Saint Helena","currency_code":"SHP"},
+{"id":"200","country_code":"SI","country":"Slovenia","currency_code":"EUR"},
+{"id":"201","country_code":"SJ","country":"Svalbard and Jan Mayen","currency_code":"NOK"},
+{"id":"202","country_code":"SK","country":"Slovakia","currency_code":"EUR"},
+{"id":"203","country_code":"SL","country":"Sierra Leone","currency_code":"SLL"},
+{"id":"204","country_code":"SM","country":"San Marino","currency_code":"EUR"},
+{"id":"205","country_code":"SN","country":"Senegal","currency_code":"XOF"},
+{"id":"206","country_code":"SO","country":"Somalia","currency_code":"SOS"},
+{"id":"207","country_code":"SR","country":"Suriname","currency_code":"SRD"},
+{"id":"208","country_code":"SS","country":"South Sudan","currency_code":"SSP"},
+{"id":"209","country_code":"ST","country":"São Tomé and Príncipe","currency_code":"STD"},
+{"id":"210","country_code":"SV","country":"El Salvador","currency_code":"USD"},
+{"id":"211","country_code":"SX","country":"Sint Maarten","currency_code":"ANG"},
+{"id":"212","country_code":"SY","country":"Syria","currency_code":"SYP"},
+{"id":"213","country_code":"SZ","country":"Swaziland","currency_code":"SZL"},
+{"id":"214","country_code":"TC","country":"Turks and Caicos Islands","currency_code":"USD"},
+{"id":"215","country_code":"TD","country":"Chad","currency_code":"XAF"},
+{"id":"216","country_code":"TF","country":"French Southern Territories","currency_code":"EUR"},
+{"id":"217","country_code":"TG","country":"Togo","currency_code":"XOF"},
+{"id":"218","country_code":"TH","country":"Thailand","currency_code":"THB"},
+{"id":"219","country_code":"TJ","country":"Tajikistan","currency_code":"TJS"},
+{"id":"220","country_code":"TK","country":"Tokelau","currency_code":"NZD"},
+{"id":"221","country_code":"TL","country":"East Timor","currency_code":"USD"},
+{"id":"222","country_code":"TM","country":"Turkmenistan","currency_code":"TMT"},
+{"id":"223","country_code":"TN","country":"Tunisia","currency_code":"TND"},
+{"id":"224","country_code":"TO","country":"Tonga","currency_code":"TOP"},
+{"id":"225","country_code":"TR","country":"Turkey","currency_code":"TRY"},
+{"id":"226","country_code":"TT","country":"Trinidad and Tobago","currency_code":"TTD"},
+{"id":"227","country_code":"TV","country":"Tuvalu","currency_code":"AUD"},
+{"id":"228","country_code":"TW","country":"Taiwan","currency_code":"TWD"},
+{"id":"229","country_code":"TZ","country":"Tanzania","currency_code":"TZS"},
+{"id":"230","country_code":"UA","country":"Ukraine","currency_code":"UAH"},
+{"id":"231","country_code":"UG","country":"Uganda","currency_code":"UGX"},
+{"id":"232","country_code":"UM","country":"U.S. Minor Outlying Islands","currency_code":"USD"},
+{"id":"233","country_code":"US","country":"United States","currency_code":"USD"},
+{"id":"234","country_code":"UY","country":"Uruguay","currency_code":"UYU"},
+{"id":"235","country_code":"UZ","country":"Uzbekistan","currency_code":"UZS"},
+{"id":"236","country_code":"VA","country":"Vatican City","currency_code":"EUR"},
+{"id":"237","country_code":"VC","country":"Saint Vincent and the Grenadines","currency_code":"XCD"},
+{"id":"238","country_code":"VE","country":"Venezuela","currency_code":"VEF"},
+{"id":"239","country_code":"VG","country":"British Virgin Islands","currency_code":"USD"},
+{"id":"240","country_code":"VI","country":"U.S. Virgin Islands","currency_code":"USD"},
+{"id":"241","country_code":"VN","country":"Vietnam","currency_code":"VND"},
+{"id":"242","country_code":"VU","country":"Vanuatu","currency_code":"VUV"},
+{"id":"243","country_code":"WF","country":"Wallis and Futuna","currency_code":"XPF"},
+{"id":"244","country_code":"WS","country":"Samoa","currency_code":"WST"},
+{"id":"245","country_code":"XK","country":"Kosovo","currency_code":"EUR"},
+{"id":"246","country_code":"YE","country":"Yemen","currency_code":"YER"},
+{"id":"247","country_code":"YT","country":"Mayotte","currency_code":"EUR"},
+{"id":"248","country_code":"ZA","country":"South Africa","currency_code":"ZAR"},
+{"id":"249","country_code":"ZM","country":"Zambia","currency_code":"ZMW"},
+{"id":"250","country_code":"ZW","country":"Zimbabwe","currency_code":"ZWL"}
+]
+}
+,{"type":"table","name":"customer","database":"eoffice","data":
+[
+{"id":"1","customer_code":"1001","name":"Aso Mohammed","company_name":"Kogay Shar","phone":"07701570615","fax":"","email":"darya.ibrahim@imperialknight.com","website":"","b_address":"Ali Naji Street","s_address":"","note":""}
+]
+}
+,{"type":"table","name":"department","database":"eoffice","data":
+[
+{"id":"1","department":"IT","description":"This is the IT Dept"}
+]
+}
+,{"type":"table","name":"depreciation","database":"eoffice","data":
+[
+{"id":"6","asset_id":"2","year":"2019","beginning_value":"52000.00","depreciate_cost":"50000.00","depreciate_rate":"33.33","depreciation_expense":"16665.00","accumulated":"5554.44","ending_value":"35335.00"},
+{"id":"7","asset_id":"2","year":"2020","beginning_value":"35335.00","depreciate_cost":"50000.00","depreciate_rate":"26.67","depreciation_expense":"13335.00","accumulated":"3556.44","ending_value":"22000.00"},
+{"id":"8","asset_id":"2","year":"2021","beginning_value":"22000.00","depreciate_cost":"50000.00","depreciate_rate":"20.00","depreciation_expense":"10000.00","accumulated":"2000.00","ending_value":"12000.00"},
+{"id":"9","asset_id":"2","year":"2022","beginning_value":"12000.00","depreciate_cost":"50000.00","depreciate_rate":"13.33","depreciation_expense":"6665.00","accumulated":"888.44","ending_value":"5335.00"},
+{"id":"10","asset_id":"2","year":"2023","beginning_value":"5335.00","depreciate_cost":"50000.00","depreciate_rate":"6.67","depreciation_expense":"3335.00","accumulated":"222.44","ending_value":"2000.00"}
+]
+}
+,{"type":"table","name":"employee","database":"eoffice","data":
+[
+
+]
+}
+,{"type":"table","name":"employee_award","database":"eoffice","data":
+[
+
+]
+}
+,{"type":"table","name":"emp_status","database":"eoffice","data":
+[
+
+]
+}
+,{"type":"table","name":"events","database":"eoffice","data":
+[
+
+]
+}
+,{"type":"table","name":"groups","database":"eoffice","data":
+[
+{"id":"1","name":"members","description":"General User"}
+]
+}
+,{"type":"table","name":"holidays","database":"eoffice","data":
+[
+
+]
+}
+,{"type":"table","name":"inbox","database":"eoffice","data":
+[
+{"id":"1","to_emp_id":"2","to_type":"admin","from_emp_id":"3","from_type":"admin","cc":"[\"2*A\"]","sender_name":"Darya Ibrahim","subject":"Hello","msg":"<p>This is a test email<\/p>","attachment":"null","attachment_id":"1634771665-20200611-060901","rating":"0","reading":"1","date":"2020-06-11 09:09:01"}
+]
+}
+,{"type":"table","name":"job_category","database":"eoffice","data":
+[
+{"id":"1","category_name":"CEO"},
+{"id":"2","category_name":"Head of Department"},
+{"id":"3","category_name":"Section Manager"}
+]
+}
+,{"type":"table","name":"job_history","database":"eoffice","data":
+[
+
+]
+}
+,{"type":"table","name":"job_title","database":"eoffice","data":
+[
+{"id":"1","job_title":"IT Manager","description":"Manages the department"}
+]
+}
+,{"type":"table","name":"language","database":"eoffice","data":
+[
+{"id":"1","code":"en","name":"english","icon":"us","active":"1"},
+{"id":"2","code":"aa","name":"afar","icon":"dj","active":"0"}
+]
+}
+,{"type":"table","name":"leave_application","database":"eoffice","data":
+[
+
+]
+}
+,{"type":"table","name":"leave_application_type","database":"eoffice","data":
+[
+
+]
+}
+,{"type":"table","name":"leave_category","database":"eoffice","data":
+[
+
+]
+}
+,{"type":"table","name":"locales","database":"eoffice","data":
+[
+{"locale":"aa_DJ","code":"aa","language":"afar","name":"Afar (Djibouti)"},
+{"locale":"aa_ER","code":"aa","language":"afar","name":"Afar (Eritrea)"},
+{"locale":"aa_ET","code":"aa","language":"afar","name":"Afar (Ethiopia)"},
+{"locale":"af_ZA","code":"af","language":"afrikaans","name":"Afrikaans (South Africa)"},
+{"locale":"am_ET","code":"am","language":"amharic","name":"Amharic (Ethiopia)"},
+{"locale":"an_ES","code":"an","language":"aragonese","name":"Aragonese (Spain)"},
+{"locale":"ar_AE","code":"ar","language":"arabic","name":"Arabic (United Arab Emirates)"},
+{"locale":"ar_BH","code":"ar","language":"arabic","name":"Arabic (Bahrain)"},
+{"locale":"ar_DZ","code":"ar","language":"arabic","name":"Arabic (Algeria)"},
+{"locale":"ar_EG","code":"ar","language":"arabic","name":"Arabic (Egypt)"},
+{"locale":"ar_IN","code":"ar","language":"arabic","name":"Arabic (India)"},
+{"locale":"ar_IQ","code":"ar","language":"arabic","name":"Arabic (Iraq)"},
+{"locale":"ar_JO","code":"ar","language":"arabic","name":"Arabic (Jordan)"},
+{"locale":"ar_KW","code":"ar","language":"arabic","name":"Arabic (Kuwait)"},
+{"locale":"ar_LB","code":"ar","language":"arabic","name":"Arabic (Lebanon)"},
+{"locale":"ar_LY","code":"ar","language":"arabic","name":"Arabic (Libya)"},
+{"locale":"ar_MA","code":"ar","language":"arabic","name":"Arabic (Morocco)"},
+{"locale":"ar_OM","code":"ar","language":"arabic","name":"Arabic (Oman)"},
+{"locale":"ar_QA","code":"ar","language":"arabic","name":"Arabic (Qatar)"},
+{"locale":"ar_SA","code":"ar","language":"arabic","name":"Arabic (Saudi Arabia)"},
+{"locale":"ar_SD","code":"ar","language":"arabic","name":"Arabic (Sudan)"},
+{"locale":"ar_SY","code":"ar","language":"arabic","name":"Arabic (Syria)"},
+{"locale":"ar_TN","code":"ar","language":"arabic","name":"Arabic (Tunisia)"},
+{"locale":"ar_YE","code":"ar","language":"arabic","name":"Arabic (Yemen)"},
+{"locale":"ast_ES","code":"ast","language":"asturian","name":"Asturian (Spain)"},
+{"locale":"as_IN","code":"as","language":"assamese","name":"Assamese (India)"},
+{"locale":"az_AZ","code":"az","language":"azerbaijani","name":"Azerbaijani (Azerbaijan)"},
+{"locale":"az_TR","code":"az","language":"azerbaijani","name":"Azerbaijani (Turkey)"},
+{"locale":"bem_ZM","code":"bem","language":"bemba","name":"Bemba (Zambia)"},
+{"locale":"ber_DZ","code":"ber","language":"berber","name":"Berber (Algeria)"},
+{"locale":"ber_MA","code":"ber","language":"berber","name":"Berber (Morocco)"},
+{"locale":"be_BY","code":"be","language":"belarusian","name":"Belarusian (Belarus)"},
+{"locale":"bg_BG","code":"bg","language":"bulgarian","name":"Bulgarian (Bulgaria)"},
+{"locale":"bn_BD","code":"bn","language":"bengali","name":"Bengali (Bangladesh)"},
+{"locale":"bn_IN","code":"bn","language":"bengali","name":"Bengali (India)"},
+{"locale":"bo_CN","code":"bo","language":"tibetan","name":"Tibetan (China)"},
+{"locale":"bo_IN","code":"bo","language":"tibetan","name":"Tibetan (India)"},
+{"locale":"br_FR","code":"br","language":"breton","name":"Breton (France)"},
+{"locale":"bs_BA","code":"bs","language":"bosnian","name":"Bosnian (Bosnia and Herzegovina)"},
+{"locale":"byn_ER","code":"byn","language":"blin","name":"Blin (Eritrea)"},
+{"locale":"ca_AD","code":"ca","language":"catalan","name":"Catalan (Andorra)"},
+{"locale":"ca_ES","code":"ca","language":"catalan","name":"Catalan (Spain)"},
+{"locale":"ca_FR","code":"ca","language":"catalan","name":"Catalan (France)"},
+{"locale":"ca_IT","code":"ca","language":"catalan","name":"Catalan (Italy)"},
+{"locale":"crh_UA","code":"crh","language":"crimean turkish","name":"Crimean Turkish (Ukraine)"},
+{"locale":"csb_PL","code":"csb","language":"kashubian","name":"Kashubian (Poland)"},
+{"locale":"cs_CZ","code":"cs","language":"czech","name":"Czech (Czech Republic)"},
+{"locale":"cv_RU","code":"cv","language":"chuvash","name":"Chuvash (Russia)"},
+{"locale":"cy_GB","code":"cy","language":"welsh","name":"Welsh (United Kingdom)"},
+{"locale":"da_DK","code":"da","language":"danish","name":"Danish (Denmark)"},
+{"locale":"de_AT","code":"de","language":"german","name":"German (Austria)"},
+{"locale":"de_BE","code":"de","language":"german","name":"German (Belgium)"},
+{"locale":"de_CH","code":"de","language":"german","name":"German (Switzerland)"},
+{"locale":"de_DE","code":"de","language":"german","name":"German (Germany)"},
+{"locale":"de_LI","code":"de","language":"german","name":"German (Liechtenstein)"},
+{"locale":"de_LU","code":"de","language":"german","name":"German (Luxembourg)"},
+{"locale":"dv_MV","code":"dv","language":"divehi","name":"Divehi (Maldives)"},
+{"locale":"dz_BT","code":"dz","language":"dzongkha","name":"Dzongkha (Bhutan)"},
+{"locale":"ee_GH","code":"ee","language":"ewe","name":"Ewe (Ghana)"},
+{"locale":"el_CY","code":"el","language":"greek","name":"Greek (Cyprus)"},
+{"locale":"el_GR","code":"el","language":"greek","name":"Greek (Greece)"},
+{"locale":"en_AG","code":"en","language":"english","name":"English (Antigua and Barbuda)"},
+{"locale":"en_AS","code":"en","language":"english","name":"English (American Samoa)"},
+{"locale":"en_AU","code":"en","language":"english","name":"English (Australia)"},
+{"locale":"en_BW","code":"en","language":"english","name":"English (Botswana)"},
+{"locale":"en_CA","code":"en","language":"english","name":"English (Canada)"},
+{"locale":"en_DK","code":"en","language":"english","name":"English (Denmark)"},
+{"locale":"en_GB","code":"en","language":"english","name":"English (United Kingdom)"},
+{"locale":"en_GU","code":"en","language":"english","name":"English (Guam)"},
+{"locale":"en_HK","code":"en","language":"english","name":"English (Hong Kong SAR China)"},
+{"locale":"en_IE","code":"en","language":"english","name":"English (Ireland)"},
+{"locale":"en_IN","code":"en","language":"english","name":"English (India)"},
+{"locale":"en_JM","code":"en","language":"english","name":"English (Jamaica)"},
+{"locale":"en_MH","code":"en","language":"english","name":"English (Marshall Islands)"},
+{"locale":"en_MP","code":"en","language":"english","name":"English (Northern Mariana Islands)"},
+{"locale":"en_MU","code":"en","language":"english","name":"English (Mauritius)"},
+{"locale":"en_NG","code":"en","language":"english","name":"English (Nigeria)"},
+{"locale":"en_NZ","code":"en","language":"english","name":"English (New Zealand)"},
+{"locale":"en_PH","code":"en","language":"english","name":"English (Philippines)"},
+{"locale":"en_SG","code":"en","language":"english","name":"English (Singapore)"},
+{"locale":"en_TT","code":"en","language":"english","name":"English (Trinidad and Tobago)"},
+{"locale":"en_US","code":"en","language":"english","name":"English (United States)"},
+{"locale":"en_VI","code":"en","language":"english","name":"English (Virgin Islands)"},
+{"locale":"en_ZA","code":"en","language":"english","name":"English (South Africa)"},
+{"locale":"en_ZM","code":"en","language":"english","name":"English (Zambia)"},
+{"locale":"en_ZW","code":"en","language":"english","name":"English (Zimbabwe)"},
+{"locale":"eo","code":"eo","language":"esperanto","name":"Esperanto"},
+{"locale":"es_AR","code":"es","language":"spanish","name":"Spanish (Argentina)"},
+{"locale":"es_BO","code":"es","language":"spanish","name":"Spanish (Bolivia)"},
+{"locale":"es_CL","code":"es","language":"spanish","name":"Spanish (Chile)"},
+{"locale":"es_CO","code":"es","language":"spanish","name":"Spanish (Colombia)"},
+{"locale":"es_CR","code":"es","language":"spanish","name":"Spanish (Costa Rica)"},
+{"locale":"es_DO","code":"es","language":"spanish","name":"Spanish (Dominican Republic)"},
+{"locale":"es_EC","code":"es","language":"spanish","name":"Spanish (Ecuador)"},
+{"locale":"es_ES","code":"es","language":"spanish","name":"Spanish (Spain)"},
+{"locale":"es_GT","code":"es","language":"spanish","name":"Spanish (Guatemala)"},
+{"locale":"es_HN","code":"es","language":"spanish","name":"Spanish (Honduras)"},
+{"locale":"es_MX","code":"es","language":"spanish","name":"Spanish (Mexico)"},
+{"locale":"es_NI","code":"es","language":"spanish","name":"Spanish (Nicaragua)"},
+{"locale":"es_PA","code":"es","language":"spanish","name":"Spanish (Panama)"},
+{"locale":"es_PE","code":"es","language":"spanish","name":"Spanish (Peru)"},
+{"locale":"es_PR","code":"es","language":"spanish","name":"Spanish (Puerto Rico)"},
+{"locale":"es_PY","code":"es","language":"spanish","name":"Spanish (Paraguay)"},
+{"locale":"es_SV","code":"es","language":"spanish","name":"Spanish (El Salvador)"},
+{"locale":"es_US","code":"es","language":"spanish","name":"Spanish (United States)"},
+{"locale":"es_UY","code":"es","language":"spanish","name":"Spanish (Uruguay)"},
+{"locale":"es_VE","code":"es","language":"spanish","name":"Spanish (Venezuela)"},
+{"locale":"et_EE","code":"et","language":"estonian","name":"Estonian (Estonia)"},
+{"locale":"eu_ES","code":"eu","language":"basque","name":"Basque (Spain)"},
+{"locale":"eu_FR","code":"eu","language":"basque","name":"Basque (France)"},
+{"locale":"fa_AF","code":"fa","language":"persian","name":"Persian (Afghanistan)"},
+{"locale":"fa_IR","code":"fa","language":"persian","name":"Persian (Iran)"},
+{"locale":"ff_SN","code":"ff","language":"fulah","name":"Fulah (Senegal)"},
+{"locale":"fil_PH","code":"fil","language":"filipino","name":"Filipino (Philippines)"},
+{"locale":"fi_FI","code":"fi","language":"finnish","name":"Finnish (Finland)"},
+{"locale":"fo_FO","code":"fo","language":"faroese","name":"Faroese (Faroe Islands)"},
+{"locale":"fr_BE","code":"fr","language":"french","name":"French (Belgium)"},
+{"locale":"fr_BF","code":"fr","language":"french","name":"French (Burkina Faso)"},
+{"locale":"fr_BI","code":"fr","language":"french","name":"French (Burundi)"},
+{"locale":"fr_BJ","code":"fr","language":"french","name":"French (Benin)"},
+{"locale":"fr_CA","code":"fr","language":"french","name":"French (Canada)"},
+{"locale":"fr_CF","code":"fr","language":"french","name":"French (Central African Republic)"},
+{"locale":"fr_CG","code":"fr","language":"french","name":"French (Congo)"},
+{"locale":"fr_CH","code":"fr","language":"french","name":"French (Switzerland)"},
+{"locale":"fr_CM","code":"fr","language":"french","name":"French (Cameroon)"},
+{"locale":"fr_FR","code":"fr","language":"french","name":"French (France)"},
+{"locale":"fr_GA","code":"fr","language":"french","name":"French (Gabon)"},
+{"locale":"fr_GN","code":"fr","language":"french","name":"French (Guinea)"},
+{"locale":"fr_GP","code":"fr","language":"french","name":"French (Guadeloupe)"},
+{"locale":"fr_GQ","code":"fr","language":"french","name":"French (Equatorial Guinea)"},
+{"locale":"fr_KM","code":"fr","language":"french","name":"French (Comoros)"},
+{"locale":"fr_LU","code":"fr","language":"french","name":"French (Luxembourg)"},
+{"locale":"fr_MC","code":"fr","language":"french","name":"French (Monaco)"},
+{"locale":"fr_MG","code":"fr","language":"french","name":"French (Madagascar)"},
+{"locale":"fr_ML","code":"fr","language":"french","name":"French (Mali)"},
+{"locale":"fr_MQ","code":"fr","language":"french","name":"French (Martinique)"},
+{"locale":"fr_NE","code":"fr","language":"french","name":"French (Niger)"},
+{"locale":"fr_SN","code":"fr","language":"french","name":"French (Senegal)"},
+{"locale":"fr_TD","code":"fr","language":"french","name":"French (Chad)"},
+{"locale":"fr_TG","code":"fr","language":"french","name":"French (Togo)"},
+{"locale":"fur_IT","code":"fur","language":"friulian","name":"Friulian (Italy)"},
+{"locale":"fy_DE","code":"fy","language":"western frisian","name":"Western Frisian (Germany)"},
+{"locale":"fy_NL","code":"fy","language":"western frisian","name":"Western Frisian (Netherlands)"},
+{"locale":"ga_IE","code":"ga","language":"irish","name":"Irish (Ireland)"},
+{"locale":"gd_GB","code":"gd","language":"scottish gaelic","name":"Scottish Gaelic (United Kingdom)"},
+{"locale":"gez_ER","code":"gez","language":"geez","name":"Geez (Eritrea)"},
+{"locale":"gez_ET","code":"gez","language":"geez","name":"Geez (Ethiopia)"},
+{"locale":"gl_ES","code":"gl","language":"galician","name":"Galician (Spain)"},
+{"locale":"gu_IN","code":"gu","language":"gujarati","name":"Gujarati (India)"},
+{"locale":"gv_GB","code":"gv","language":"manx","name":"Manx (United Kingdom)"},
+{"locale":"ha_NG","code":"ha","language":"hausa","name":"Hausa (Nigeria)"},
+{"locale":"he_IL","code":"he","language":"hebrew","name":"Hebrew (Israel)"},
+{"locale":"hi_IN","code":"hi","language":"hindi","name":"Hindi (India)"},
+{"locale":"hr_HR","code":"hr","language":"croatian","name":"Croatian (Croatia)"},
+{"locale":"hsb_DE","code":"hsb","language":"upper sorbian","name":"Upper Sorbian (Germany)"},
+{"locale":"ht_HT","code":"ht","language":"haitian","name":"Haitian (Haiti)"},
+{"locale":"hu_HU","code":"hu","language":"hungarian","name":"Hungarian (Hungary)"},
+{"locale":"hy_AM","code":"hy","language":"armenian","name":"Armenian (Armenia)"},
+{"locale":"ia","code":"ia","language":"interlingua","name":"Interlingua"},
+{"locale":"id_ID","code":"id","language":"indonesian","name":"Indonesian (Indonesia)"},
+{"locale":"ig_NG","code":"ig","language":"igbo","name":"Igbo (Nigeria)"},
+{"locale":"ik_CA","code":"ik","language":"inupiaq","name":"Inupiaq (Canada)"},
+{"locale":"is_IS","code":"is","language":"icelandic","name":"Icelandic (Iceland)"},
+{"locale":"it_CH","code":"it","language":"italian","name":"Italian (Switzerland)"},
+{"locale":"it_IT","code":"it","language":"italian","name":"Italian (Italy)"},
+{"locale":"iu_CA","code":"iu","language":"inuktitut","name":"Inuktitut (Canada)"},
+{"locale":"ja_JP","code":"ja","language":"japanese","name":"Japanese (Japan)"},
+{"locale":"ka_GE","code":"ka","language":"georgian","name":"Georgian (Georgia)"},
+{"locale":"kk_KZ","code":"kk","language":"kazakh","name":"Kazakh (Kazakhstan)"},
+{"locale":"kl_GL","code":"kl","language":"kalaallisut","name":"Kalaallisut (Greenland)"},
+{"locale":"km_KH","code":"km","language":"khmer","name":"Khmer (Cambodia)"},
+{"locale":"kn_IN","code":"kn","language":"kannada","name":"Kannada (India)"},
+{"locale":"kok_IN","code":"kok","language":"konkani","name":"Konkani (India)"},
+{"locale":"ko_KR","code":"ko","language":"korean","name":"Korean (South Korea)"},
+{"locale":"ks_IN","code":"ks","language":"kashmiri","name":"Kashmiri (India)"},
+{"locale":"ku_TR","code":"ku","language":"kurdish","name":"Kurdish (Turkey)"},
+{"locale":"kw_GB","code":"kw","language":"cornish","name":"Cornish (United Kingdom)"},
+{"locale":"ky_KG","code":"ky","language":"kirghiz","name":"Kirghiz (Kyrgyzstan)"},
+{"locale":"lg_UG","code":"lg","language":"ganda","name":"Ganda (Uganda)"},
+{"locale":"li_BE","code":"li","language":"limburgish","name":"Limburgish (Belgium)"},
+{"locale":"li_NL","code":"li","language":"limburgish","name":"Limburgish (Netherlands)"},
+{"locale":"lo_LA","code":"lo","language":"lao","name":"Lao (Laos)"},
+{"locale":"lt_LT","code":"lt","language":"lithuanian","name":"Lithuanian (Lithuania)"},
+{"locale":"lv_LV","code":"lv","language":"latvian","name":"Latvian (Latvia)"},
+{"locale":"mai_IN","code":"mai","language":"maithili","name":"Maithili (India)"},
+{"locale":"mg_MG","code":"mg","language":"malagasy","name":"Malagasy (Madagascar)"},
+{"locale":"mi_NZ","code":"mi","language":"maori","name":"Maori (New Zealand)"},
+{"locale":"mk_MK","code":"mk","language":"macedonian","name":"Macedonian (Macedonia)"},
+{"locale":"ml_IN","code":"ml","language":"malayalam","name":"Malayalam (India)"},
+{"locale":"mn_MN","code":"mn","language":"mongolian","name":"Mongolian (Mongolia)"},
+{"locale":"mr_IN","code":"mr","language":"marathi","name":"Marathi (India)"},
+{"locale":"ms_BN","code":"ms","language":"malay","name":"Malay (Brunei)"},
+{"locale":"ms_MY","code":"ms","language":"malay","name":"Malay (Malaysia)"},
+{"locale":"mt_MT","code":"mt","language":"maltese","name":"Maltese (Malta)"},
+{"locale":"my_MM","code":"my","language":"burmese","name":"Burmese (Myanmar)"},
+{"locale":"naq_NA","code":"naq","language":"namibia","name":"Namibia"},
+{"locale":"nb_NO","code":"nb","language":"norwegian bokm?l","name":"Norwegian Bokm?l (Norway)"},
+{"locale":"nds_DE","code":"nds","language":"low german","name":"Low German (Germany)"},
+{"locale":"nds_NL","code":"nds","language":"low german","name":"Low German (Netherlands)"},
+{"locale":"ne_NP","code":"ne","language":"nepali","name":"Nepali (Nepal)"},
+{"locale":"nl_AW","code":"nl","language":"dutch","name":"Dutch (Aruba)"},
+{"locale":"nl_BE","code":"nl","language":"dutch","name":"Dutch (Belgium)"},
+{"locale":"nl_NL","code":"nl","language":"dutch","name":"Dutch (Netherlands)"},
+{"locale":"nn_NO","code":"nn","language":"norwegian nynorsk","name":"Norwegian Nynorsk (Norway)"},
+{"locale":"no_NO","code":"no","language":"norwegian","name":"Norwegian (Norway)"},
+{"locale":"nr_ZA","code":"nr","language":"south ndebele","name":"South Ndebele (South Africa)"},
+{"locale":"nso_ZA","code":"nso","language":"northern sotho","name":"Northern Sotho (South Africa)"},
+{"locale":"oc_FR","code":"oc","language":"occitan","name":"Occitan (France)"},
+{"locale":"om_ET","code":"om","language":"oromo","name":"Oromo (Ethiopia)"},
+{"locale":"om_KE","code":"om","language":"oromo","name":"Oromo (Kenya)"},
+{"locale":"or_IN","code":"or","language":"oriya","name":"Oriya (India)"},
+{"locale":"os_RU","code":"os","language":"ossetic","name":"Ossetic (Russia)"},
+{"locale":"pap_AN","code":"pap","language":"papiamento","name":"Papiamento (Netherlands Antilles)"},
+{"locale":"pa_IN","code":"pa","language":"punjabi","name":"Punjabi (India)"},
+{"locale":"pa_PK","code":"pa","language":"punjabi","name":"Punjabi (Pakistan)"},
+{"locale":"pl_PL","code":"pl","language":"polish","name":"Polish (Poland)"},
+{"locale":"ps_AF","code":"ps","language":"pashto","name":"Pashto (Afghanistan)"},
+{"locale":"pt_BR","code":"pt","language":"portuguese","name":"Portuguese (Brazil)"},
+{"locale":"pt_GW","code":"pt","language":"portuguese","name":"Portuguese (Guinea-Bissau)"},
+{"locale":"pt_PT","code":"pt","language":"portuguese","name":"Portuguese (Portugal)"},
+{"locale":"ro_MD","code":"ro","language":"romanian","name":"Romanian (Moldova)"},
+{"locale":"ro_RO","code":"ro","language":"romanian","name":"Romanian (Romania)"},
+{"locale":"ru_RU","code":"ru","language":"russian","name":"Russian (Russia)"},
+{"locale":"ru_UA","code":"ru","language":"russian","name":"Russian (Ukraine)"},
+{"locale":"rw_RW","code":"rw","language":"kinyarwanda","name":"Kinyarwanda (Rwanda)"},
+{"locale":"sa_IN","code":"sa","language":"sanskrit","name":"Sanskrit (India)"},
+{"locale":"sc_IT","code":"sc","language":"sardinian","name":"Sardinian (Italy)"},
+{"locale":"sd_IN","code":"sd","language":"sindhi","name":"Sindhi (India)"},
+{"locale":"seh_MZ","code":"seh","language":"sena","name":"Sena (Mozambique)"},
+{"locale":"se_NO","code":"se","language":"northern sami","name":"Northern Sami (Norway)"},
+{"locale":"sid_ET","code":"sid","language":"sidamo","name":"Sidamo (Ethiopia)"},
+{"locale":"si_LK","code":"si","language":"sinhala","name":"Sinhala (Sri Lanka)"},
+{"locale":"sk_SK","code":"sk","language":"slovak","name":"Slovak (Slovakia)"},
+{"locale":"sl_SI","code":"sl","language":"slovenian","name":"Slovenian (Slovenia)"},
+{"locale":"sn_ZW","code":"sn","language":"shona","name":"Shona (Zimbabwe)"},
+{"locale":"so_DJ","code":"so","language":"somali","name":"Somali (Djibouti)"},
+{"locale":"so_ET","code":"so","language":"somali","name":"Somali (Ethiopia)"},
+{"locale":"so_KE","code":"so","language":"somali","name":"Somali (Kenya)"},
+{"locale":"so_SO","code":"so","language":"somali","name":"Somali (Somalia)"},
+{"locale":"sq_AL","code":"sq","language":"albanian","name":"Albanian (Albania)"},
+{"locale":"sq_MK","code":"sq","language":"albanian","name":"Albanian (Macedonia)"},
+{"locale":"sr_BA","code":"sr","language":"serbian","name":"Serbian (Bosnia and Herzegovina)"},
+{"locale":"sr_ME","code":"sr","language":"serbian","name":"Serbian (Montenegro)"},
+{"locale":"sr_RS","code":"sr","language":"serbian","name":"Serbian (Serbia)"},
+{"locale":"ss_ZA","code":"ss","language":"swati","name":"Swati (South Africa)"},
+{"locale":"st_ZA","code":"st","language":"southern sotho","name":"Southern Sotho (South Africa)"},
+{"locale":"sv_FI","code":"sv","language":"swedish","name":"Swedish (Finland)"},
+{"locale":"sv_SE","code":"sv","language":"swedish","name":"Swedish (Sweden)"},
+{"locale":"sw_KE","code":"sw","language":"swahili","name":"Swahili (Kenya)"},
+{"locale":"sw_TZ","code":"sw","language":"swahili","name":"Swahili (Tanzania)"},
+{"locale":"ta_IN","code":"ta","language":"tamil","name":"Tamil (India)"},
+{"locale":"teo_UG","code":"teo","language":"teso","name":"Teso (Uganda)"},
+{"locale":"te_IN","code":"te","language":"telugu","name":"Telugu (India)"},
+{"locale":"tg_TJ","code":"tg","language":"tajik","name":"Tajik (Tajikistan)"},
+{"locale":"th_TH","code":"th","language":"thai","name":"Thai (Thailand)"},
+{"locale":"tig_ER","code":"tig","language":"tigre","name":"Tigre (Eritrea)"},
+{"locale":"ti_ER","code":"ti","language":"tigrinya","name":"Tigrinya (Eritrea)"},
+{"locale":"ti_ET","code":"ti","language":"tigrinya","name":"Tigrinya (Ethiopia)"},
+{"locale":"tk_TM","code":"tk","language":"turkmen","name":"Turkmen (Turkmenistan)"},
+{"locale":"tl_PH","code":"tl","language":"tagalog","name":"Tagalog (Philippines)"},
+{"locale":"tn_ZA","code":"tn","language":"tswana","name":"Tswana (South Africa)"},
+{"locale":"to_TO","code":"to","language":"tongan","name":"Tongan (Tonga)"},
+{"locale":"tr_CY","code":"tr","language":"turkish","name":"Turkish (Cyprus)"},
+{"locale":"tr_TR","code":"tr","language":"turkish","name":"Turkish (Turkey)"},
+{"locale":"ts_ZA","code":"ts","language":"tsonga","name":"Tsonga (South Africa)"},
+{"locale":"tt_RU","code":"tt","language":"tatar","name":"Tatar (Russia)"},
+{"locale":"ug_CN","code":"ug","language":"uighur","name":"Uighur (China)"},
+{"locale":"uk_UA","code":"uk","language":"ukrainian","name":"Ukrainian (Ukraine)"},
+{"locale":"ur_PK","code":"ur","language":"urdu","name":"Urdu (Pakistan)"},
+{"locale":"uz_UZ","code":"uz","language":"uzbek","name":"Uzbek (Uzbekistan)"},
+{"locale":"ve_ZA","code":"ve","language":"venda","name":"Venda (South Africa)"},
+{"locale":"vi_VN","code":"vi","language":"vietnamese","name":"Vietnamese (Vietnam)"},
+{"locale":"wa_BE","code":"wa","language":"walloon","name":"Walloon (Belgium)"},
+{"locale":"wo_SN","code":"wo","language":"wolof","name":"Wolof (Senegal)"},
+{"locale":"xh_ZA","code":"xh","language":"xhosa","name":"Xhosa (South Africa)"},
+{"locale":"yi_US","code":"yi","language":"yiddish","name":"Yiddish (United States)"},
+{"locale":"yo_NG","code":"yo","language":"yoruba","name":"Yoruba (Nigeria)"},
+{"locale":"zh_CN","code":"zh","language":"chinese","name":"Chinese (China)"},
+{"locale":"zh_HK","code":"zh","language":"chinese","name":"Chinese (Hong Kong SAR China)"},
+{"locale":"zh_SG","code":"zh","language":"chinese","name":"Chinese (Singapore)"},
+{"locale":"zh_TW","code":"zh","language":"chinese","name":"Chinese (Taiwan)"},
+{"locale":"zu_ZA","code":"zu","language":"zulu","name":"Zulu (South Africa)"}
+]
+}
+,{"type":"table","name":"login_attempts","database":"eoffice","data":
+[
+
+]
+}
+,{"type":"table","name":"notice","database":"eoffice","data":
+[
+
+]
+}
+,{"type":"table","name":"options","database":"eoffice","data":
+[
+{"id":"1","name":"company_name","value":"eOffice Manager"},
+{"id":"2","name":"address","value":"360 Edgefield Circle  Butte, MT 59701"},
+{"id":"3","name":"email","value":"support@codeslab.net"},
+{"id":"4","name":"city","value":"Stamford"},
+{"id":"5","name":"postal_code","value":"46556"},
+{"id":"6","name":"phone","value":"203-962-5164"},
+{"id":"7","name":"company_logo","value":"fig-01.png"},
+{"id":"8","name":"icon","value":"fig-02.png"},
+{"id":"9","name":"country","value":"Iraq"},
+{"id":"10","name":"time_zone","value":"Asia\/Baghdad"},
+{"id":"11","name":"default_currency","value":"USD"},
+{"id":"12","name":"currency_symbol","value":"$"},
+{"id":"13","name":"currency_format","value":"2"},
+{"id":"14","name":"date_format","value":"Y-m-d"},
+{"id":"15","name":"invoice_prefix","value":"Invoice #"},
+{"id":"16","name":"order_prefix","value":"Purchase Ref#"},
+{"id":"17","name":"invoice_text","value":"<p>Thanks for Doing Business with us.<br><\/p>"},
+{"id":"18","name":"invoice_logo","value":"fig-011.png"},
+{"id":"19","name":"smtp_host","value":"SMTP Host"},
+{"id":"20","name":"smtp_username","value":"company@email.com"},
+{"id":"21","name":"smtp_password","value":"SMTP Password"},
+{"id":"22","name":"smtp_port","value":"SMTP Port"},
+{"id":"23","name":"mail_sender","value":"Codes Lab"},
+{"id":"24","name":"invoice_mail_from","value":"sales@codeslab.net"},
+{"id":"25","name":"campaign_mail_from","value":"no-replay@codeslab.net"},
+{"id":"26","name":"recovery_mail_from","value":"no-replay@codeslab.net"},
+{"id":"27","name":"all_other_mails_from","value":"no-replay@codeslab.net"},
+{"id":"28","name":"email_send_option","value":"smtp"},
+{"id":"29","name":"login_logo","value":"eoffice_logo.png"},
+{"id":"30","name":"login_title","value":"Ultimate HRM & Accounts Features "},
+{"id":"31","name":"login_description","value":"eOffice is an office management software where you can easily manage your Employee, Accounts, Business Transaction, Manage product, customer, Vendor, Sales and Purchase etc."},
+{"id":"32","name":"brand","value":"eOffice"}
+]
+}
+,{"type":"table","name":"order_details","database":"eoffice","data":
+[
+
+]
+}
+,{"type":"table","name":"outbox","database":"eoffice","data":
+[
+{"id":"1","from_emp_id":"3","from_type":"admin","cc":"[\"2*A\"]","subject":"Hello","msg":"<p>This is a test email<\/p>","attachment":"null","attachment_id":"1634771665-20200611-060901","date":"2020-06-11 09:09:01"}
+]
+}
+,{"type":"table","name":"payment","database":"eoffice","data":
+[
+
+]
+}
+,{"type":"table","name":"payroll","database":"eoffice","data":
+[
+
+]
+}
+,{"type":"table","name":"persons","database":"eoffice","data":
+[
+
+]
+}
+,{"type":"table","name":"product","database":"eoffice","data":
+[
+
+]
+}
+,{"type":"table","name":"product_category","database":"eoffice","data":
+[
+{"id":"1","category":"Medical"}
+]
+}
+,{"type":"table","name":"purchase_details","database":"eoffice","data":
+[
+
+]
+}
+,{"type":"table","name":"purchase_order","database":"eoffice","data":
+[
+
+]
+}
+,{"type":"table","name":"received_product","database":"eoffice","data":
+[
+
+]
+}
+,{"type":"table","name":"salary","database":"eoffice","data":
+[
+
+]
+}
+,{"type":"table","name":"salary_component","database":"eoffice","data":
+[
+{"id":"1","component_name":"Basic Payment","type":"1","total_payable":"1","cost_company":"1","value_type":"1","flag":"1"}
+]
+}
+,{"type":"table","name":"salary_grade","database":"eoffice","data":
+[
+
+]
+}
+,{"type":"table","name":"sales_order","database":"eoffice","data":
+[
+
+]
+}
+,{"type":"table","name":"subordinate","database":"eoffice","data":
+[
+
+]
+}
+,{"type":"table","name":"supervisor","database":"eoffice","data":
+[
+
+]
+}
+,{"type":"table","name":"tax","database":"eoffice","data":
+[
+{"id":"1","name":"None","rate":"0.00","type":"1"}
+]
+}
+,{"type":"table","name":"tbl_attendance","database":"eoffice","data":
+[
+
+]
+}
+,{"type":"table","name":"transactions","database":"eoffice","data":
+[
+{"id":"1","transaction_id":"101","transaction_type_id":"2","transaction_type":"Expense","account_id":"1","category_id":"1","amount":"250.00","description":"A laptop was bought for Hanaw","payment_method":"Cash","ref":"","balance":"-250.00","date_time":"2020-06-11 09:28:29","transfer_ref":"0"}
+]
+}
+,{"type":"table","name":"transaction_category","database":"eoffice","data":
+[
+{"id":"1","name":"Electronics","description":"This includes Computers and electronics","type":"2"}
+]
+}
+,{"type":"table","name":"users","database":"eoffice","data":
+[
+
+]
+}
+,{"type":"table","name":"users_groups","database":"eoffice","data":
+[
+
+]
+}
+,{"type":"table","name":"vendor","database":"eoffice","data":
+[
+
+]
+}
+,{"type":"table","name":"working_days","database":"eoffice","data":
+[
+{"id":"1","days":"Saturday","flag":"1"},
+{"id":"2","days":"Sunday","flag":"1"},
+{"id":"3","days":"Monday","flag":"1"},
+{"id":"4","days":"Tuesday","flag":"1"},
+{"id":"5","days":"Wednesday","flag":"1"},
+{"id":"6","days":"Thursday","flag":"1"},
+{"id":"7","days":"Friday","flag":"0"}
+]
+}
+,{"type":"table","name":"work_shift","database":"eoffice","data":
+[
+{"id":"1","shift_name":"IK-Normal","shift_form":"09:00 AM","shift_to":"04:25 PM"}
+]
+}
+]
