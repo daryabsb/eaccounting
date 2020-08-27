@@ -1,0 +1,20 @@
+
+
+Steps:
+    1. Create a new company (or open existing).
+    2. Company creation instructions and steps.
+    3. Choose peachtree product:
+        a. Accounting Program
+        b. -- For construction.
+        c. -- For destribution.
+        d. -- For manufacturing.
+        e. -- For non-profits.
+        f. -- Normal app.
+    4. Enter company information.
+    5. Select method that matches your company.
+    6. Choose the template.
+    7. Accounting method (Acrual or Cash).
+    8. Posting method (Real time recording or Batch recording of transactions).
+    9. Accounting period structor (12 monthly or custom calendar).
+    10. First period physical calendar (Month, Year).
+    11. Completion message (Finish)
